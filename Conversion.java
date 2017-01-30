@@ -28,7 +28,7 @@ public class Conversion
         }
 
         while (inputType < 1 || inputType > 4) {
-            System.out.print("Error -- please a value between 1-4 >> ");
+            System.out.print("Error -- please enter a value between 1-4 >> ");
             if (in.hasNextInt()) {
                 inputType = in.nextInt();
             } else {
@@ -47,7 +47,7 @@ public class Conversion
         }
 
         while (outType < 1 || outType > 4) {
-            System.out.print("Error -- please a value between 1-4 >> ");
+            System.out.print("Error -- please enter a value between 1-4 >> ");
             if (in.hasNextInt()) {
                 outType = in.nextInt();
             } else {
@@ -79,7 +79,7 @@ public class Conversion
         }
 
         while (inAmount < 1 ) {
-            System.out.print("Error -- please a value greater than 1 >> ");
+            System.out.print("Error -- please enter a value greater than 1 >> ");
             if (in.hasNextDouble()) {
                 inAmount = in.nextDouble();
             } else {
